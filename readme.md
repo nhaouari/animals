@@ -1,61 +1,62 @@
-# superb [![Build Status](https://travis-ci.org/sindresorhus/superb.svg?branch=master)](https://travis-ci.org/sindresorhus/superb)
+# animals [![Build Status](https://travis-ci.org/boennemann/animals.svg?branch=master)](https://travis-ci.org/boennemann/animals)
 
-> Get superb like words
+> Get animals
 
-Currently 100 words.
+Currently 236 animals.
 
-The word list itself is just a [JSON file](words.json) and can be used wherever.
+The list itself is just a [JSON file](words.json) and can be used wherever.
+The list is extracted from [wikipedia](https://en.wikipedia.org/wiki/List_of_animal_names).
 
 
 ## Install
 
 ```sh
-$ npm install --save superb
+$ npm install --save animals
 ```
 
 
 ## Usage
 
 ```js
-var superb = require('superb');
+var animals = require('animals');
 
-superb();
-//=> legendary
+animals();
+//=> fox
 
-superb();
-//=> awesome
+animals();
+//=> panda
 
-superb.words;
-// ['superb', 'legendary', ...]
+animals.words;
+// ['aardvark', 'albatross', ...]
 ```
 
 
 ## API
 
-### superb()
+### animals()
 
-Returns a random [superb like word](words.json).
+Returns a random [animal](words.json).
 
-### superb.words
+### animals.words
 
-Array with all the words.
+Array with all the animals.
 
 
 ## CLI
 
 ```sh
-$ npm install --global superb
+$ npm install --global animals
 ```
 
 ```sh
-$ superb --help
+$ animals --help
 
 Example
-  $ superb
+  $ animals
   legendary
 ```
 
 
 ## License
-
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+Entirely based on [superb](https://github.com/sindresorhus/superb) by [Sindre Sorhus](http://sindresorhus.com/).
+MIT © [Stephan Bönnemann](http://boennemann.me)

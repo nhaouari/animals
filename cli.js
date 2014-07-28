@@ -2,14 +2,14 @@
 'use strict';
 var argv = require('minimist')(process.argv.slice(2));
 var pkg = require('./package.json');
-var superb = require('./');
+var animals = require('./');
 
 function help() {
 	console.log([
 		pkg.description,
 		'',
 		'Example',
-		'  $ superb',
+		'  $ animals',
 		'  legendary'
 	].join('\n'));
 }
@@ -24,4 +24,4 @@ if (argv.version) {
 	return;
 }
 
-console.log(superb());
+console.log(animals());

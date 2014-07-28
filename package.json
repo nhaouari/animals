@@ -1,16 +1,16 @@
 {
-  "name": "superb",
-  "version": "1.0.2",
-  "description": "Get superb like words",
+  "name": "animals",
+  "version": "0.0.1",
+  "description": "Get animals",
   "license": "MIT",
-  "repository": "sindresorhus/superb",
+  "repository": "boennemann/animals",
   "bin": {
     "superb": "cli.js"
   },
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "name": "Stephan Bönnemann",
+    "email": "stephan@boennemann.me",
+    "url": "http://boennemann.me"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -26,10 +26,7 @@
   "keywords": [
     "cli",
     "bin",
-    "superb",
-    "awesome",
-    "word",
-    "words",
+    "animals",
     "list",
     "array",
     "random",

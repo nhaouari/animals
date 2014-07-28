@@ -1,12 +1,12 @@
 'use strict';
 var test = require('ava');
-var superb = require('./');
+var animals = require('./');
 
-test('returns a random superb word', function (t) {
-	t.assert(superb().length > 0);
+test('returns a random animal', function (t) {
+	t.assert(animals().length > 0);
 });
 
-test('returns all the words', function (t) {
-	t.assert(Array.isArray(superb.words));
-	t.assert(superb.words[3].length > 0);
+test('returns all the animals', function (t) {
+	t.assert(Array.isArray(animals.words));
+	t.assert(animals.words[3].length > 0);
 });
