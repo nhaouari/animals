@@ -53,7 +53,7 @@ $ animals --help
 
 Example
   $ animals
-  legendary
+  lion
 ```
 
 
