@@ -10,7 +10,7 @@ function help() {
 		'',
 		'Example',
 		'  $ animals',
-		'  legendary'
+		'  lion'
 	].join('\n'));
 }
 
