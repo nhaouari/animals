@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": "boennemann/animals",
   "bin": {
-    "superb": "cli.js"
+    "animals": "cli.js"
   },
   "author": {
     "name": "Stephan Bönnemann",
